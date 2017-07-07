@@ -1,6 +1,6 @@
 {% set name = "ply" %}
-{% set version = "3.9" %}
-{% set sha256 = "118e7d8fa38d0221aa2ae673184a0a265c6d83a20e9528ef71825b3983ac1dd6" %}
+{% set version = "3.10" %}
+{% set sha256 = "dd88825a5913714b0c7ec5c7f31b26a5d84862fec0a990c4d9ed88db17937976" %}
 
 package:
   name: {{ name|lower }}
@@ -42,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - scopatz
+    - synapticarbors
