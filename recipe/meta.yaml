@@ -1,6 +1,6 @@
 {% set name = "ply" %}
-{% set version = "3.10" %}
-{% set sha256 = "dd88825a5913714b0c7ec5c7f31b26a5d84862fec0a990c4d9ed88db17937976" %}
+{% set version = "3.8" %}
+{% set sha256 = "e7d1bdff026beb159c9942f7a17e102c375638d9478a7ecd4cc0c76afd8de0b8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/dabeaz/{{ name }}/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
