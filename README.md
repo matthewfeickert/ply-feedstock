@@ -16,14 +16,15 @@ yacc.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ply-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ply-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ply-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ply-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ply-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ply-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/ply-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/ply-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ply/badges/version.svg)](https://anaconda.org/conda-forge/ply)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ply/badges/downloads.svg)](https://anaconda.org/conda-forge/ply)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ply-green.svg)](https://anaconda.org/conda-forge/ply) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ply.svg)](https://anaconda.org/conda-forge/ply) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ply.svg)](https://anaconda.org/conda-forge/ply) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ply.svg)](https://anaconda.org/conda-forge/ply) |
 
 Installing ply
 ==============
