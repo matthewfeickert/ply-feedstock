@@ -1,20 +1,18 @@
 {% set name = "ply" %}
 {% set version = "3.11" %}
-{% set sha256 = "00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 2
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
@@ -31,7 +29,7 @@ test:
 
 about:
   home: http://www.dabeaz.com/ply/index.html
-  license: BSD 3-clause
+  license: BSD 3-Clause
   license_family: BSD
   license_file: README.md
   summary: 'Python Lex-Yacc'
