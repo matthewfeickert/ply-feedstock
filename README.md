@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ply-feedstock/b
 
 Home: http://www.dabeaz.com/ply/index.html
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Summary: Python Lex-Yacc
 
