@@ -1,5 +1,6 @@
 {% set name = "ply" %}
 {% set version = "3.11" %}
+{% set python_min = "3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 3
+  number: 4
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
